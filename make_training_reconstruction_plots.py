@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Create real-vs-training reconstruction plots from saved cVAE runs."""
+"""Generate trajectory figures and animations from independently trained models.
+
+This file loads saved cVAE checkpoints and creates four-panel comparisons of
+past context, real future, model reconstruction, and overlaid trajectories. It
+visualizes existing models and does not perform additional training.
+"""
 
 from __future__ import annotations
 

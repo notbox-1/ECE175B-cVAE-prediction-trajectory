@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Train one cVAE per MASBots data folder and save 300-frame comparison plots."""
+"""Launch independent cVAE training for every MASBots trial.
+
+This file discovers each paired big-circle/small-dot dataset, calls
+train_masbots_cvae.py once per trial, and writes a summary of the independently
+trained models and their best validation losses.
+"""
 
 from __future__ import annotations
 

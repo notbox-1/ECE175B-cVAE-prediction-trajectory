@@ -1,3 +1,4 @@
+# Exclude generated caches, local datasets, and large training outputs.
 __pycache__/
 *.py[cod]
 .DS_Store

@@ -1,3 +1,4 @@
+# Python packages required for MASBots preprocessing, cVAE training, and plots.
 numpy
 scipy
 matplotlib

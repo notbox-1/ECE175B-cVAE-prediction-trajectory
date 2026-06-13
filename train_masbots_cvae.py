@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Train a directed-interaction cVAE on paired MASBots tracking files."""
+"""Core MASBots cVAE model and single-trial training pipeline.
+
+This file loads paired big-circle and small-dot tracking data, constructs robot
+states and directed interaction features, trains the cVAE, and saves the model,
+training history, loss curves, and trajectory predictions for one trial.
+"""
 
 from __future__ import annotations
 

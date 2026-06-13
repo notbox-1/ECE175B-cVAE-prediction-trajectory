@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Train shared MASBots models on all trials from each 2f/2h condition."""
+"""Train shared cVAE models across trials from the same MASBots condition.
+
+This file combines the three 2f trials into one shared model and the three 2h
+trials into another, using condition-level normalization, chronological
+validation, learning-rate reduction, and early stopping.
+"""
 
 from __future__ import annotations
 
